@@ -1,0 +1,39 @@
+body {
+  margin: 0px;
+}
+iframe {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: #000;
+  background-image: url(https://dev7tv-online.vercel.app/play/httpro/img/unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+#cbwrap {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  z-index: 99999;
+}
+
+
+button {
+  color: #ffffff5e;
+    background: #940a0a42;
+    border: 0;
+    padding-top: 3px;
+    cursor: pointer;
+    border-radius: 14px;
+    width: 45px;
+    height: 45px;
+}
+
+.bt-hover:hover {
+  background-color: #940a0ad6 !important;
+  color: #ffffffcf !important;
+  box-shadow: -1px -1px 6px 5px #27421752;
+}
